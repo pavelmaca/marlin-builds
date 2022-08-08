@@ -15,7 +15,7 @@ module.exports = {
     },
     configuration: {
         enable: [
-            ["MOTHERBOARD",  q`BOARD_BTT_SKR_V1_3`],
+            ["MOTHERBOARD",  q`BOARD_BTT_SKR_V1_4`],
         ],
         disable: []
     },
