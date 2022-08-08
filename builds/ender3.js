@@ -17,6 +17,7 @@ module.exports = {
         enable: [
             ["STRING_CONFIG_H_AUTHOR", "(Assassik, Ender-3 Pro)"],
             ["MOTHERBOARD",  q`BOARD_BTT_SKR_V1_3`],
+            "DIAG_JUMPERS_REMOVED",
             ["SERIAL_PORT",  -1],
             ["SERIAL_PORT_2",  0],
             ["X_DRIVER_TYPE",   q`TMC2209`],
