@@ -1,4 +1,9 @@
 {
+    "builds/ender3.js": {
+        "version": "8025117ac0a446e14358f7124669f8b54230c8fc",
+        "md5": "cb05b04c54e3605f55105bf6090a2285",
+        "assetId": 74035302
+    },
     "builds/test.js": {
         "version": "8025117ac0a446e14358f7124669f8b54230c8fc",
         "md5": "bc620a2c71d273c455fb3de21474394f",
