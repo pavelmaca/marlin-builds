@@ -15,7 +15,7 @@ module.exports = {
     },
     configuration: {
         enable: [
-            ["STRING_CONFIG_H_AUTHOR", "(pavelmaca, Ender-3 Pro)"],
+            ["STRING_CONFIG_H_AUTHOR", "(Assassik, Ender-3 Pro)"],
             ["MOTHERBOARD",  "BOARD_BTT_SKR_V1_3"],
             ["SERIAL_PORT",  -1],
             ["SERIAL_PORT_2",  0],
@@ -51,7 +51,7 @@ module.exports = {
     configuration_adv: {
         enable: [
             ["E0_AUTO_FAN_PIN", "FAN1_PIN"],
-            "SDCARD_CONNECTION ONBOARD",
+            ["SDCARD_CONNECTION", "ONBOARD"],
             "MONITOR_DRIVER_STATUS",
             "TMC_DEBUG",
 
