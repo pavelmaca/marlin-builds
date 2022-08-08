@@ -1,6 +1,7 @@
 module.exports = {
     board_env: "LPC1768",
     active: true,
+    only: "stable",
     meta: {
         stable_name: "ender_3_skr13_ubl_0.1-{{marlin_version}}-{{uid}}",
         nightly_name: "ender_3_skr13_ubl_0.1-{{current_date}}-{{uid}}"
@@ -10,6 +11,7 @@ module.exports = {
         path: "/config/examples/Creality/Ender-3 Pro/CrealityV1/",
         stable_branch: "release-{{marlin_version}}",
         nightly_branch: "bugfix-2.1.x"
+
     },
     configuration: {
         enable: [
