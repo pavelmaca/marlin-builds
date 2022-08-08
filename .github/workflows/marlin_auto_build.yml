@@ -14,4 +14,8 @@ jobs:
   create_builds:
     runs-on: ubuntu-latest
     steps:
-      - uses: zisismaras/marlin_auto_build@v1.0.12
+      - name: Show files changed
+        run: ls -al $HOME
+
+      - name: build
+        uses: zisismaras/marlin_auto_build@v1.0.12
