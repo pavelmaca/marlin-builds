@@ -14,7 +14,5 @@ jobs:
   create_builds:
     runs-on: ubuntu-latest
     steps:
-      - run: rm -rf ./dist
-
       - name: build
         uses: zisismaras/marlin_auto_build@v1.0.12
