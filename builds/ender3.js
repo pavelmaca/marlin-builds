@@ -16,13 +16,13 @@ module.exports = {
     configuration: {
         enable: [
             ["STRING_CONFIG_H_AUTHOR", "(Assassik, Ender-3 Pro)"],
-            ["MOTHERBOARD",  "BOARD_BTT_SKR_V1_3"],
+            ["MOTHERBOARD",  q`BOARD_BTT_SKR_V1_3`],
             ["SERIAL_PORT",  -1],
             ["SERIAL_PORT_2",  0],
-            ["X_DRIVER_TYPE",   "TMC2209"],
-            ["Y_DRIVER_TYPE",   "TMC2209"],
-            ["Z_DRIVER_TYPE",   "TMC2209"],
-            ["E0_DRIVER_TYPE",  "TMC2209"],
+            ["X_DRIVER_TYPE",   q`TMC2209`],
+            ["Y_DRIVER_TYPE",   q`TMC2209`],
+            ["Z_DRIVER_TYPE",   q`TMC2209`],
+            ["E0_DRIVER_TYPE",  q`TMC2209`],
 
             // enable filament change and nozzle park on pause
             // - init from EEPROM needed to load new FILAMENT_CHANGE_UNLOAD_LENGTH values
@@ -50,7 +50,7 @@ module.exports = {
     },
     configuration_adv: {
         enable: [
-            ["E0_AUTO_FAN_PIN", "FAN1_PIN"],
+            ["E0_AUTO_FAN_PIN", q`FAN1_PIN`],
             ["SDCARD_CONNECTION", "ONBOARD"],
             "MONITOR_DRIVER_STATUS",
             "TMC_DEBUG",
