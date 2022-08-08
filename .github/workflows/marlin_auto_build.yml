@@ -1,10 +1,6 @@
 name: marlin_auto_build
 
 on:
- workflow_dispatch:
-  inputs:
-    tags:
-      description: 'Test scenario tags'  
   # trigger if we change a build
   push:
     paths:
@@ -12,9 +8,10 @@ on:
   # trigger every night at 03:30
   #schedule:
   #  - cron:  '30 3 * * *'
+  workflow_dispatch:
 
 jobs:
   create_builds:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     steps:
-    - uses: zisismaras/marlin_auto_build@v1.0.12
+      - uses: zisismaras/marlin_auto_build@v1.0.12
